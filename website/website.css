@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container-home {
+    background-image: url('https://th.bing.com/th/id/R.e2d1b45fbd1ebe09ec7e78b105652b1d?rik=XS73S9pWErlmdw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2fe%2fe%2f367521.jpg&ehk=Jn%2bFc%2bnnxJ1AwVISZ9p3IVLJTqsZASu8NMJWwOKrv%2fE%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.top-section-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: red;
+    text-align: left;
+    background-color: black;
+}
+
+.top-section-card {
+    background-color: black;
+}
+
+.heading-home {
+    font-family: "Monoton";
+    font-size: 60px;
+    color: red;
+    text-align: center;
+}
+
+.para {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #b9c9d7;
+    text-align: center;
+}
+
+.button-home {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: red;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bg-container-fav {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-container-fav {
+    background-image: url('https://th.bing.com/th/id/R.e2d1b45fbd1ebe09ec7e78b105652b1d?rik=XS73S9pWErlmdw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2fe%2fe%2f367521.jpg&ehk=Jn%2bFc%2bnnxJ1AwVISZ9p3IVLJTqsZASu8NMJWwOKrv%2fE%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    text-align: center;
+    height: 150vh;
+}
+
+.episodes-card {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.epi-card-heading {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: red;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.epi-card-para {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #5a7184;
+}
+
+.image {
+    height: 150px;
+    width: 180px;
+    padding: 10px;
+}

@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" text="website.css" href="website.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="bg-container-home d-flex flex-column justify-content-center">
+            <div class="home-page ">
+                <h1 class="heading-home">MOVIE WORLD</h1>
+                <p class="para">E N T E R T A I N M E N T</p>
+                <button class="button-home" onclick="display('sectionfav')">EXPLORE</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfav">
+        <div class="bg-container-fav">
+            <div class="top-section-home d-flex flex-row justify-content-right">
+                <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+                <h1 class="top-section-heading">movieworld.com</h1>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://i.ytimg.com/vi/JQWydi7ttQE/maxresdefault.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">HORROR</h1>
+                    <button class="btn-dark" onclick="display('sectionhorror')">explore</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://1.bp.blogspot.com/-fWNCBKOF7YM/XoEDi_psT9I/AAAAAAAAEeE/ab9VmqMibbIoaEw7158zfcEU4fqQrjn0ACLcBGAsYHQ/s1600/1049094.jpg" onclick="display('sectionadventurious')" class="image" />
+                    <h1 class="epi-card-heading">ADVENTUROUS</h1>
+                    <button class="btn-dark" onclick="display('sectionadventurious')">explore</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://i.ytimg.com/vi/PypRFVjK_Ro/maxresdefault.jpg" onclick="display('sectionSadhguru')" class="image" />
+                    <h1 class="epi-card-heading">COMEDY</h1>
+                    <button class="btn-dark" onclick="display('sectioncomedy')">explore</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://i.guim.co.uk/img/media/d356046ece8ae356173dd04f8d6f5677dfeabe5c/0_0_2048_1229/master/2048.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ac0841eeadb39e78e790be8e116b910e" onclick="display('sectionOnPurpose')" class="image" />
+                    <h1 class="epi-card-heading">LOVE</h1>
+                    <button class="btn-dark" onclick="display('sectionlove')">explore</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://img.mensxp.com/media/content/2017/Dec/the-top-10-crime-thriller-movies-of-20171400-1513772701.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">CRIME</h1>
+                    <button class="btn-dark" onclick="display('sectioncrime')">explore</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://systweak1.vo.llnwd.net/content/wp/systweakblogsnew/uploads_new/2018/04/The-Best-Sci-Fi-Movies-On-Netflix-In-2018.jpg" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">SCI-FI</h1>
+                    <button class="btn-dark" onclick="display('sectionsci-fi')">explore</button>
+                </div>
+            </div>
+            <button class="btn-danger" onclick="display('sectionhome')">back</button>
+        </div>
+    </div>
+    <div id="sectionhorror">
+        <div class="bg-container-fav">
+            <div class="top-section-home d-flex flex-row justify-content-right">
+                <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+                <h1 class="top-section-heading">movieworld.com</h1>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://media.movieassets.com/static/images/items/movies/posters/e2070178dda66fb1e398c3fd957c6785.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">ANNABELLA</h1>
+                    <button class="btn-dark" onclick="display('sectionannabella')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://image.tmdb.org/t/p/w1280/inBZ5Lm0tUNSgMGZZ7f9vfHNKI2.jpg" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">CONJURING</h1>
+                    <button class="btn-dark" onclick="display('sectionconjuring')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.70dFpV4LlrQvX8MnszU_2wHaEK?pid=ImgDet&rs=1" onclick="display('sectionSadhguru')" class="image" />
+                    <h1 class="epi-card-heading">LIGHTS OUT</h1>
+                    <button class="btn-dark" onclick="display('sectionlightsout')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://www.screengeek.net/wp-content/uploads/2017/10/the-nun.jpg" onclick="display('sectionOnPurpose')" class="image" />
+                    <h1 class="epi-card-heading">THE NUN</h1>
+                    <button class="btn-dark" onclick="display('sectionthenun')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.NEu7DqutiT6d_97-Cnj8MwHaLH?pid=ImgDet&rs=1" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">INCIDIOUS</h1>
+                    <button class="btn-dark" onclick="display('sectionincidious')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/R.f0f6d1e27711717249265de1442a987a?rik=eI48TRnt9MKHKQ&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fit-chapter-two-2019-ux.jpg&ehk=WZc92S3hTAa9oEykc5f4hq0lcwd8kV4ESIdvsvaimvI%3d&risl=&pid=ImgRaw&r=0" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">IT</h1>
+                    <button class="btn-dark" onclick="display('sectionit')">Watch Now</button>
+                </div>
+            </div>
+            <button class="btn-danger" onclick="display('sectionfav')">back</button>
+        </div>
+    </div>
+    <div id="sectionadventurious">
+        <div class="bg-container-fav">
+            <div class="top-section-home d-flex flex-row justify-content-right">
+                <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+                <h1 class="top-section-heading">movieworld.com</h1>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://img.moviesrankings.com/t/p/w1280/7paC3UJ0P2P3DeykgQhUD1hnQJO.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">AVATAR</h1>
+                    <button class="btn-dark" onclick="display('sectionavatar')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://geeksofdoom.com/GoD/img/2018/08/jurassic-park-25th-anniversary-poster.jpg" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">JURASSIC PARK</h1>
+                    <button class="btn-dark" onclick="display('sectionjurassic')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://image.tmdb.org/t/p/original/837UYj8Fsd7vIYPz65RdYm6DakX.jpg" onclick="display('sectionSadhguru')" class="image" />
+                    <h1 class="epi-card-heading">KING KONG</h1>
+                    <button class="btn-dark" onclick="display('sectionkingkong')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://image.tmdb.org/t/p/original/i85n7hR7GGI91mIPbQS2VLnRe5e.jpg" onclick="display('sectionOnPurpose')" class="image" />
+                    <h1 class="epi-card-heading">WHALE RIDER</h1>
+                    <button class="btn-dark" onclick="display('sectionwhalerider')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://mr.comingsoon.it/imgdb/locandine/big/50719.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">WILD</h1>
+                    <button class="btn-dark" onclick="display('sectionwild')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://image.tmdb.org/t/p/original/kPxKozOmtDBkWMZC6MPefEjAsKZ.jpg" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">THE AERONAUTS</h1>
+                    <button class="btn-dark" onclick="display('sectiontheaeronauts')">Watch Now</button>
+                </div>
+            </div>
+        </div>
+        <button class="btn-danger" onclick="display('sectionfav')">back</button>
+    </div>
+    <div id="sectioncomedy">
+        <div class="bg-container-fav">
+            <div class="top-section-home d-flex flex-row justify-content-right">
+                <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+                <h1 class="top-section-heading">movieworld.com</h1>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://flxt.tmsimg.com/assets/p170969_p_v10_aa.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">Babylon </h1>
+                    <button class="btn-dark" onclick="display('sectionbabylon')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.Uow2SMhXBCPNUhowMz_aMgHaKi?pid=ImgDet&rs=1" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">You People</h1>
+                    <button class="btn-dark" onclick="display('sectionyoupeople')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BM2NlZDI0ZDktNTg5OS00ZjQ1LWI4MDEtN2I0MDE5NWRiNzA4XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_UY1200_CR79,0,630,1200_AL_.jpg" onclick="display('sectionSadhguru')" class="image" />
+                    <h1 class="epi-card-heading">The Banshees of Inisherin</h1>
+                    <button class="btn-dark" onclick="display('sectionthebansheesofinisherin')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://image.tmdb.org/t/p/original/5zMiji6nLQPW0N6rocXYVbQuJXo.jpg" onclick="display('sectionOnPurpose')" class="image" />
+                    <h1 class="epi-card-heading">Knives Out</h1>
+                    <button class="btn-dark" onclick="display('sectionknivesout')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://image.tmdb.org/t/p/original/oJS0qxNfMdMcFnEZbUbB5q2Olik.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">Magic Mike</h1>
+                    <button class="btn-dark" onclick="display('sectionmagicmike')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.dKK_xJVAVgK3ZVCem_3UdgAAAA?pid=ImgDet&rs=1" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">Bank of Dave</h1>
+                    <button class="btn-dark" onclick="display('sectionbankofdave')">Watch Now</button>
+                </div>
+            </div>
+            <button class="btn-danger" onclick="display('sectionfav')">back</button>
+        </div>
+    </div>
+    <div id="sectionlove">
+        <div class="bg-container-fav">
+            <div class="top-section-home d-flex flex-row justify-content-right">
+                <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+                <h1 class="top-section-heading">movieworld.com</h1>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://www.filmibeat.com/img/2018/08/geetha2-1535023846.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">geetha govindha</h1>
+                    <button class="btn-dark" onclick="display('sectiongeethagovindham')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://images.desimartini.com/media/main/original/2019-4/5a91842f-82af-48bd-81b4-968b9f08bfcb.jpg" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">dear comrade</h1>
+                    <button class="btn-dark" onclick="display('sectiondearcomrade')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.03N-Cs_M3godUtbj365QowHaHa?pid=ImgDet&rs=1" onclick="display('sectionSadhguru')" class="image" />
+                    <h1 class="epi-card-heading">shershah</h1>
+                    <button class="btn-dark" onclick="display('sectionshershah')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://www.filmibeat.com/ph-big/2014/07/manam-50-day-poster_140505513800.jpg" onclick="display('sectionOnPurpose')" class="image" />
+                    <h1 class="epi-card-heading">manam</h1>
+                    <button class="btn-dark" onclick="display('sectionmanam')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://wallpapercave.com/wp/wp8434470.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">Nava Manmadhudu</h1>
+                    <button class="btn-dark" onclick="display('sectionnavamanmadhudu')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/R.4b3f5cd733775bed528c39f440656e0f?rik=%2fEioYW2kJcqdNA&riu=http%3a%2f%2f1.bp.blogspot.com%2f_eewr1b1LpYA%2fTMzvt9Wqk5I%2fAAAAAAAAKSc%2fVPt9UcU41jA%2fs1600%2forange_movie_latest_stills_pics_wallpapers_02.jpg&ehk=gI3GEPqKX%2bZQHqpisZV28qyIqs69lI3SPKC85Vgrtnc%3d&risl=&pid=ImgRaw&r=0" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">orange</h1>
+                    <button class="btn-dark" onclick="display('sectionorange')">Watch Now</button>
+                </div>
+            </div>
+            <button class="btn-danger" onclick="display('sectionfav')">back</button>
+        </div>
+    </div>
+    <div id="sectioncrime">
+        <div class="bg-container-fav">
+            <div class="top-section-home d-flex flex-row justify-content-right">
+                <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+                <h1 class="top-section-heading">movieworld.com</h1>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.3oWYOE1gxWwEGxhFhlKMtAHaLH?pid=ImgDet&w=500&h=750&rs=1" onclick="display('sectiondhrushyam')" class="image" />
+                    <h1 class="epi-card-heading">Dhrushyam</h1>
+                    <button class="btn-dark" onclick="display('sectiondhrushyam')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202208/Cadaver-poster_1660067613.jpg" onclick="display('sectioncadaver')" class="image" />
+                    <h1 class="epi-card-heading">Cadaver</h1>
+                    <button class="btn-dark" onclick="display('sectioncadaver')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://way2ott.com/wp-content/uploads/2022/09/Screenshot_327.jpg" onclick="display('section')" class="image" />
+                    <h1 class="epi-card-heading">Hunt</h1>
+                    <button class="btn-dark" onclick="display('sectionhunt')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.m1HhefU_6oWYYD7BGtZM8wHaEK?pid=ImgDet&rs=1" onclick="display('sectionOnPurpose')" class="image" />
+                    <h1 class="epi-card-heading">Hit 2</h1>
+                    <button class="btn-dark" onclick="display('sectionhit2')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.nysz1gqLYU5TFYaHQu9h0AHaKf?pid=ImgDet&rs=1" onclick="display('sectionrakshasudu')" class="image" />
+                    <h1 class="epi-card-heading">Rakshasudu</h1>
+                    <button class="btn-dark" onclick="display('sectionrakshasudu')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.QffM4ukA30bMyXBoj8PfpAHaLG?pid=ImgDet&rs=1" onclick="display('sectionpsycho')" class="image" />
+                    <h1 class="epi-card-heading">psycho</h1>
+                    <button class="btn-dark" onclick="display('sectionpsycho')">Watch Now</button>
+                </div>
+            </div>
+            <button class="btn-danger" onclick="display('sectionfav')">back</button>
+        </div>
+    </div>
+    <div id="sectionsci-fi">
+        <div class="bg-container-fav">
+            <div class="top-section-home d-flex flex-row justify-content-right">
+                <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+                <h1 class="top-section-heading">movieworld.com</h1>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.HIFzLgMC00rl59z47zZQwAHaKf?pid=ImgDet&w=696&h=986&rs=1" onclick="display('sectionyashoda')" class="image" />
+                    <h1 class="epi-card-heading">YASHODA</h1>
+                    <button class="btn-dark" onclick="display('sectionyashoda')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.yk2pMbL7no7iOc5C4cVoNwHaJL?pid=ImgDet&rs=1" onclick="display('section')" class="image" />
+                    <h1 class="epi-card-heading">OKE OKA JEEVITHAM</h1>
+                    <button class="btn-dark" onclick="display('sectionokeokajeevitham')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.oj8dT2nlw713L1FEwugcWgHaKY?pid=ImgDet&rs=1" onclick="display('section')" class="image" />
+                    <h1 class="epi-card-heading">MARO PRAPANCHAM</h1>
+                    <button class="btn-dark" onclick="display('sectionmaroprapancham')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202212/story_1670235149.jpg?downsize=680:*" onclick="display('section')" class="image" />
+                    <h1 class="epi-card-heading">DR.56</h1>
+                    <button class="btn-dark" onclick="display('sectiondr56')">Watch Now</button>
+                </div>
+            </div>
+            <div class="episodes-card d-flex flex-row justify-content-center">
+                <div class="epi-card">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71s4miqkEFL._SL1000_.jpg" onclick="display('sectionPuriJagannadh')" class="image" />
+                    <h1 class="epi-card-heading">KRRISH 3</h1>
+                    <button class="btn-dark" onclick="display('sectionkrrish3')">Watch Now</button>
+                </div>
+                <div class="epi-card">
+                    <img src="https://th.bing.com/th/id/OIP.MxgHsrv1L75_NiF5IsJ-0AHaLH?pid=ImgDet&rs=1" onclick="display('sectionTedxtalksPage')" class="image" />
+                    <h1 class="epi-card-heading">ADBHUTHAM</h1>
+                    <button class="btn-dark" onclick="display('sectionadbhutham')">Watch Now</button>
+                </div>
+            </div>
+            <button class="btn-danger" onclick="display('sectionfav')">back</button>
+        </div>
+    </div>
+    <div id="sectionannabella">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/paFgQNPGlsg?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionhorror')">back</button>
+    </div>
+    <div id="sectionconjuring">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VFsmuRPClr4?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionhorror')">back</button>
+    </div>
+    <div id="sectionit">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hAUTdjif9rko?rel=0" allowfullscreen></iframe>
+            <button class="btn-danger" onclick="display('sectionhorror')">back</button>
+        </div>
+    </div>
+    <div id="sectionlightsout">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6LiKKFZyhRU?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionhorror')">back</button>
+    </div>
+    <div id="sectionincidious">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fJfQFOC_nLs?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionhorror')">back</button>
+    </div>
+    <div id="sectionthenun">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pzD9zGcUNrw?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionhorror')">back</button>
+    </div>
+    <div id="sectionbabylon">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5muQK7CuFtYR?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncomedy')">back</button>
+    </div>
+    <div id="sectionjurassicpark">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rc_i5TKdmhs?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionadventurious')">back</button>
+    </div>
+    <div id="sectionkingkong">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VO-7czFrZ_A?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionadventurious')">back</button>
+    </div>
+    <div id="sectionwhalerider">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QDiPBjk8fAAtn2-G?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionadventurious')">back</button>
+    </div>
+    <div id="sectionwild">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tn2-GSqPyl0?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionadventurious')">back</button>
+    </div>
+    <div id="sectiontheaeronauts">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rm4VnwCtQO8?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionadventurious')">back</button>
+    </div>
+    <div id="sectionavatar">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d9MyW72ELq0?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionhadventurious')">back</button>
+    </div>
+    <div id="sectionyoupeople">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lcd0df7jwpM?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncomedy')">back</button>
+    </div>
+    <div id="sectionthebansheesofinisherin">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uRu3zLOJN2cqG?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncomedy')">back</button>
+    </div>
+    <div id="sectionknivesout">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qGqiHJTsRkQ?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncomedy')">back</button>
+    </div>
+    <div id="sectionmagicmike">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dd0XPRo4LZQ?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncomedy')">back</button>
+    </div>
+    <div id="sectionbankofdave">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iNeXxN3Lqok?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncomedy')">back</button>
+    </div>
+    <div id="sectiongeethagovindham">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tZ-X76204AU?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionlove')">back</button>
+    </div>
+    <div id="sectiondearcomrade">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BXfgTCzhQ2M?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionlove')">back</button>
+    </div>
+    <div id="sectionmanam">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oYEw0CG0nUk?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionlove')">back</button>
+    </div>
+    <div id="sectionnavamanmadhudu">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gdqI-Z-Pzk8?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionlove')">back</button>
+    </div>
+    <div id="sectionorange">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/p3bHkgNk_Ao?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionlove')">back</button>
+    </div>
+    <div id="sectionshershah">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZJ7AUGkx0Hk?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionlove')">back</button>
+    </div>
+    <div id="sectiondhrushyam">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A7qdrQHMUGA?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncrime')">back</button>
+    </div>
+    <div id="sectionhit2">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4GzAwnjVTqc?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncrime')">back</button>
+    </div>
+    <div id="sectionhunt">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XHiun7PE8x4?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncrime')">back</button>
+    </div>
+    <div id="sectionpsycho">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W3eGsZNI-nI?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncrime')">back</button>
+    </div>
+    <div id="sectioncadaver">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QS-ehAABxA?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncrime')">back</button>
+    </div>
+    <div id="sectionrakshasudu">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zhwMSTRI_nw?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectioncrime')">back</button>
+    </div>
+    <div id="sectionyashoda">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c8pvrUovnvw?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionsci-fi')">back</button>
+    </div>
+    <div id="sectionokeokajeevitham">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IWdpz035Amw?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionsci-fi')">back</button>
+    </div>
+    <div id="sectionadbhutham">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3ILD-TJZBNc?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionsci-fi')">back</button>
+    </div>
+    <div id="sectiondr56">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ba_DfBZvtGI?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionsci-fi')">back</button>
+    </div>
+    <div id="sectionmaroprapancham">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G4JM3Zsf5e4?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionsci-fi')">back</button>
+    </div>
+    <div id="sectionkrrish3">
+        <div class="top-section-card d-flex flex-row justify-content-right ">
+            <img src="https://images.squarespace-cdn.com/content/v1/569e93263b0be3cdaf4ce48d/1483557869612-GDJJWTNW8GAIU5YKPPPB/image-asset.png" height=30 width=30 />
+            <h1 class="top-section-heading">movieworld.com</h1>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aQIddfMrvCI?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn-danger" onclick="display('sectionsci-fi')">back</button>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
